@@ -1,3 +1,4 @@
+using FPAMS.Infrastructure;
 using FPAMS.Persistence.DependencyInjection;
 
 namespace FPAMS.API;
@@ -16,6 +17,8 @@ public class Program
 
         builder.Services.AddPersistenceServices(builder.Configuration);
 
+        builder.Services.AddInfrastructure(builder.Configuration);
+
         builder.Services.AddCors(options =>
         {
             options.AddPolicy("AllowAll",
@@ -29,13 +32,17 @@ public class Program
 
         var app = builder.Build();
 
-        app.UseSwagger();
-
-        app.UseSwaggerUI();
+        if (app.Environment.IsDevelopment())
+        {
+            app.UseSwagger();
+            app.UseSwaggerUI();
+        }
 
         app.UseHttpsRedirection();
 
         app.UseCors("AllowAll");
+
+        app.UseAuthentication();
 
         app.UseAuthorization();
 

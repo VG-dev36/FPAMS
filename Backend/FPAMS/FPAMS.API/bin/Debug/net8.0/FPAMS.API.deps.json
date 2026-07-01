@@ -13,6 +13,7 @@
           "FPAMS.Infrastructure": "1.0.0",
           "FPAMS.Persistence": "1.0.0",
           "FPAMS.Shared": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.28",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {

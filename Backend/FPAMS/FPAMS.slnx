@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="FPAMS.API/FPAMS.API.csproj" />
+  <Project Path="FPAMS.Application/FPAMS.Application.csproj" Id="c7f1c5c7-5cb7-4ced-a33a-f523d20b8525" />
+  <Project Path="FPAMS.Domain/FPAMS.Domain.csproj" Id="58da4d83-c0c5-4d71-9e59-f2413be7c032" />
+  <Project Path="FPAMS.Infrastructure/FPAMS.Infrastructure.csproj" Id="c94e5210-59ed-4c82-86bf-097ea5389e8a" />
+  <Project Path="FPAMS.Persistence/FPAMS.Persistence.csproj" Id="94c83726-8625-4f80-bbaa-f150a3910958" />
+  <Project Path="FPAMS.Shared/FPAMS.Shared.csproj" Id="29875891-c394-45b8-a7c7-2bf0caad947a" />
+</Solution>

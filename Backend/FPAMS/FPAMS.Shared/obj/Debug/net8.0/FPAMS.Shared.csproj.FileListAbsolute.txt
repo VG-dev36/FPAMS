@@ -1,0 +1,11 @@
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Shared\bin\Debug\net8.0\FPAMS.Shared.deps.json
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Shared\bin\Debug\net8.0\FPAMS.Shared.dll
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Shared\bin\Debug\net8.0\FPAMS.Shared.pdb
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Shared\obj\Debug\net8.0\FPAMS.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Shared\obj\Debug\net8.0\FPAMS.Shared.AssemblyInfoInputs.cache
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Shared\obj\Debug\net8.0\FPAMS.Shared.AssemblyInfo.cs
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Shared\obj\Debug\net8.0\FPAMS.Shared.csproj.CoreCompileInputs.cache
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Shared\obj\Debug\net8.0\FPAMS.Shared.dll
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Shared\obj\Debug\net8.0\refint\FPAMS.Shared.dll
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Shared\obj\Debug\net8.0\FPAMS.Shared.pdb
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Shared\obj\Debug\net8.0\ref\FPAMS.Shared.dll

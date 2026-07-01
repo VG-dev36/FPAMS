@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vinay\\FPAMS\\Backend\\FPAMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58DA4D83-C0C5-4D71-9E59-F2413BE7C032}|FPAMS.Domain\\FPAMS.Domain.csproj|c:\\users\\vinay\\fpams\\backend\\fpams\\fpams.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58DA4D83-C0C5-4D71-9E59-F2413BE7C032}|FPAMS.Domain\\FPAMS.Domain.csproj|solutionrelative:fpams.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58DA4D83-C0C5-4D71-9E59-F2413BE7C032}|FPAMS.Domain\\FPAMS.Domain.csproj|c:\\users\\vinay\\fpams\\backend\\fpams\\fpams.domain\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58DA4D83-C0C5-4D71-9E59-F2413BE7C032}|FPAMS.Domain\\FPAMS.Domain.csproj|solutionrelative:fpams.domain\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58DA4D83-C0C5-4D71-9E59-F2413BE7C032}|FPAMS.Domain\\FPAMS.Domain.csproj|c:\\users\\vinay\\fpams\\backend\\fpams\\fpams.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58DA4D83-C0C5-4D71-9E59-F2413BE7C032}|FPAMS.Domain\\FPAMS.Domain.csproj|solutionrelative:fpams.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\vinay\\FPAMS\\Backend\\FPAMS\\FPAMS.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "FPAMS.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\vinay\\FPAMS\\Backend\\FPAMS\\FPAMS.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "FPAMS.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T04:46:30.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\vinay\\FPAMS\\Backend\\FPAMS\\FPAMS.Domain\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "FPAMS.Domain\\Entities\\Department.cs",
+              "ToolTip": "C:\\Users\\vinay\\FPAMS\\Backend\\FPAMS\\FPAMS.Domain\\Entities\\Department.cs",
+              "RelativeToolTip": "FPAMS.Domain\\Entities\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T04:46:23.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\vinay\\FPAMS\\Backend\\FPAMS\\FPAMS.Domain\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "FPAMS.Domain\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\vinay\\FPAMS\\Backend\\FPAMS\\FPAMS.Domain\\Entities\\Role.cs",
+              "RelativeToolTip": "FPAMS.Domain\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T04:46:08.816Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

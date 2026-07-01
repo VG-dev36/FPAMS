@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FPAMS.Application/1.0.0": {
+        "dependencies": {
+          "FPAMS.Domain": "1.0.0",
+          "FPAMS.Shared": "1.0.0"
+        },
+        "runtime": {
+          "FPAMS.Application.dll": {}
+        }
+      },
+      "FPAMS.Domain/1.0.0": {
+        "runtime": {
+          "FPAMS.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "FPAMS.Shared/1.0.0": {
+        "runtime": {
+          "FPAMS.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FPAMS.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FPAMS.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FPAMS.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

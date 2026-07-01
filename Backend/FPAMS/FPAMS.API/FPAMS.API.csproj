@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FPAMS.Application\FPAMS.Application.csproj" />
+    <ProjectReference Include="..\FPAMS.Domain\FPAMS.Domain.csproj" />
+    <ProjectReference Include="..\FPAMS.Infrastructure\FPAMS.Infrastructure.csproj" />
+    <ProjectReference Include="..\FPAMS.Persistence\FPAMS.Persistence.csproj" />
+    <ProjectReference Include="..\FPAMS.Shared\FPAMS.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

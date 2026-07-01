@@ -1,0 +1,11 @@
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Domain\bin\Debug\net8.0\FPAMS.Domain.deps.json
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Domain\bin\Debug\net8.0\FPAMS.Domain.dll
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Domain\bin\Debug\net8.0\FPAMS.Domain.pdb
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Domain\obj\Debug\net8.0\FPAMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Domain\obj\Debug\net8.0\FPAMS.Domain.AssemblyInfoInputs.cache
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Domain\obj\Debug\net8.0\FPAMS.Domain.AssemblyInfo.cs
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Domain\obj\Debug\net8.0\FPAMS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Domain\obj\Debug\net8.0\FPAMS.Domain.dll
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Domain\obj\Debug\net8.0\refint\FPAMS.Domain.dll
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Domain\obj\Debug\net8.0\FPAMS.Domain.pdb
+C:\Users\vinay\FPAMS\Backend\FPAMS\FPAMS.Domain\obj\Debug\net8.0\ref\FPAMS.Domain.dll

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinay\\FPAMS\\Backend\\FPAMS\\FPAMS.Domain\\FPAMS.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Domain\\FPAMS.Domain.csproj",
       "projectName": "FPAMS.Domain",
-      "projectPath": "C:\\Users\\vinay\\FPAMS\\Backend\\FPAMS\\FPAMS.Domain\\FPAMS.Domain.csproj",
+      "projectPath": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Domain\\FPAMS.Domain.csproj",
       "packagesPath": "C:\\Users\\vinay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vinay\\FPAMS\\Backend\\FPAMS\\FPAMS.Domain\\obj\\",
+      "outputPath": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

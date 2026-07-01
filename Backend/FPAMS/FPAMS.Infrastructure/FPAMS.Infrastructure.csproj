@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.28" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.11" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.19.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\FPAMS.Application\FPAMS.Application.csproj" />
     <ProjectReference Include="..\FPAMS.Domain\FPAMS.Domain.csproj" />
     <ProjectReference Include="..\FPAMS.Persistence\FPAMS.Persistence.csproj" />

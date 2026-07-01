@@ -1,6 +1,5 @@
 using FPAMS.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using System.Reflection.Emit;
 
 namespace FPAMS.Persistence.Context;
 
@@ -17,10 +16,13 @@ public class AppDbContext : DbContext
 
     public DbSet<Department> Departments => Set<Department>();
 
+    public DbSet<AcademicYear> AcademicYears => Set<AcademicYear>();
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
 
-        modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
+        modelBuilder.ApplyConfigurationsFromAssembly(
+            typeof(AppDbContext).Assembly);
     }
 }

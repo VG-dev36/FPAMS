@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vinay\\FPAMS\\Backend\\FPAMS\\FPAMS.Shared\\FPAMS.Shared.csproj": {}
+    "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Shared\\FPAMS.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vinay\\FPAMS\\Backend\\FPAMS\\FPAMS.Shared\\FPAMS.Shared.csproj": {
+    "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Shared\\FPAMS.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vinay\\FPAMS\\Backend\\FPAMS\\FPAMS.Shared\\FPAMS.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Shared\\FPAMS.Shared.csproj",
         "projectName": "FPAMS.Shared",
-        "projectPath": "C:\\Users\\vinay\\FPAMS\\Backend\\FPAMS\\FPAMS.Shared\\FPAMS.Shared.csproj",
+        "projectPath": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Shared\\FPAMS.Shared.csproj",
         "packagesPath": "C:\\Users\\vinay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vinay\\FPAMS\\Backend\\FPAMS\\FPAMS.Shared\\obj\\",
+        "outputPath": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

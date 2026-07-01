@@ -5,4 +5,5 @@
   <Project Path="FPAMS.Infrastructure/FPAMS.Infrastructure.csproj" Id="c94e5210-59ed-4c82-86bf-097ea5389e8a" />
   <Project Path="FPAMS.Persistence/FPAMS.Persistence.csproj" Id="94c83726-8625-4f80-bbaa-f150a3910958" />
   <Project Path="FPAMS.Shared/FPAMS.Shared.csproj" Id="29875891-c394-45b8-a7c7-2bf0caad947a" />
+  <Project Path="FPAMS.Tests/FPAMS.Tests.csproj" Id="733fb539-8a35-438a-98db-9f07797c9ada" />
 </Solution>

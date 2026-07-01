@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\vinay\\FPAMS\\Backend\\FPAMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{733FB539-8A35-438A-98DB-9F07797C9ADA}|FPAMS.Tests\\FPAMS.Tests.csproj|c:\\users\\vinay\\fpams\\backend\\fpams\\fpams.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{733FB539-8A35-438A-98DB-9F07797C9ADA}|FPAMS.Tests\\FPAMS.Tests.csproj|solutionrelative:fpams.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{58DA4D83-C0C5-4D71-9E59-F2413BE7C032}|FPAMS.Domain\\FPAMS.Domain.csproj|c:\\users\\vinay\\fpams\\backend\\fpams\\fpams.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58DA4D83-C0C5-4D71-9E59-F2413BE7C032}|FPAMS.Domain\\FPAMS.Domain.csproj|solutionrelative:fpams.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\vinay\\FPAMS\\Backend\\FPAMS\\FPAMS.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "FPAMS.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\vinay\\FPAMS\\Backend\\FPAMS\\FPAMS.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "FPAMS.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T05:10:58.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\vinay\\FPAMS\\Backend\\FPAMS\\FPAMS.Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "FPAMS.Domain\\Entities\\User.cs",
@@ -34,12 +51,11 @@
               "RelativeToolTip": "FPAMS.Domain\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T04:46:30.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-01T04:46:30.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Department.cs",
               "DocumentMoniker": "C:\\Users\\vinay\\FPAMS\\Backend\\FPAMS\\FPAMS.Domain\\Entities\\Department.cs",
               "RelativeDocumentMoniker": "FPAMS.Domain\\Entities\\Department.cs",
@@ -47,12 +63,11 @@
               "RelativeToolTip": "FPAMS.Domain\\Entities\\Department.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T04:46:23.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-01T04:46:23.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\vinay\\FPAMS\\Backend\\FPAMS\\FPAMS.Domain\\Entities\\Role.cs",
               "RelativeDocumentMoniker": "FPAMS.Domain\\Entities\\Role.cs",
@@ -60,8 +75,7 @@
               "RelativeToolTip": "FPAMS.Domain\\Entities\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T04:46:08.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-01T04:46:08.816Z"
             }
           ]
         }

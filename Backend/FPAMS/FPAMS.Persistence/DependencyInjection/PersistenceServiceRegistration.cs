@@ -2,6 +2,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using FPAMS.Application.Interfaces;
+using FPAMS.Persistence.Repositories;
 
 namespace FPAMS.Persistence.DependencyInjection;
 
@@ -16,6 +18,8 @@ public static class PersistenceServiceRegistration
             options.UseSqlServer(
                 configuration.GetConnectionString("DefaultConnection"));
         });
+
+        services.AddScoped<IUserRepository, UserRepository>();
 
         return services;
     }

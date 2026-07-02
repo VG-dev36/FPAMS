@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|solutionrelative:fpams.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C94E5210-59ED-4C82-86BF-097EA5389E8A}|FPAMS.Infrastructure\\FPAMS.Infrastructure.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.infrastructure\\seed\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C94E5210-59ED-4C82-86BF-097EA5389E8A}|FPAMS.Infrastructure\\FPAMS.Infrastructure.csproj|solutionrelative:fpams.infrastructure\\seed\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|solutionrelative:fpams.api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Program.cs",
-              "RelativeDocumentMoniker": "FPAMS.API\\Program.cs",
-              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Program.cs",
-              "RelativeToolTip": "FPAMS.API\\Program.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAQwGIAAAA1AAAAAAAAAA==",
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "FPAMS.API\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "FPAMS.API\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAIwEYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T07:07:32.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IdentitySeeder.cs",
-              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Infrastructure\\Seed\\IdentitySeeder.cs",
-              "RelativeDocumentMoniker": "FPAMS.Infrastructure\\Seed\\IdentitySeeder.cs",
-              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Infrastructure\\Seed\\IdentitySeeder.cs",
-              "RelativeToolTip": "FPAMS.Infrastructure\\Seed\\IdentitySeeder.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAIwEIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T07:07:14.826Z",
+              "WhenOpened": "2026-07-02T07:46:24.675Z",
               "EditorCaption": ""
             }
           ]

@@ -1,10 +1,12 @@
 ﻿using FPAMS.Application.Interfaces;
 using FPAMS.Infrastructure.Authentication;
+using FPAMS.Persistence.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using FPAMS.Infrastructure.Services;
 
 namespace FPAMS.Infrastructure;
 
@@ -60,6 +62,8 @@ public static class DependencyInjection
         services.AddScoped<ICurrentUserService, CurrentUserService>();
 
         services.AddScoped<IAuthService, AuthService>();
+
+        services.AddScoped<IDepartmentService, DepartmentService>();
 
         return services;
     }

@@ -1,5 +1,6 @@
 using FPAMS.Infrastructure;
 using FPAMS.Persistence.DependencyInjection;
+using Microsoft.OpenApi.Models;
 
 namespace FPAMS.API;
 
@@ -13,7 +14,49 @@ public class Program
 
         builder.Services.AddEndpointsApiExplorer();
 
-        builder.Services.AddSwaggerGen();
+        builder.Services.AddSwaggerGen(options =>
+        {
+            options.SwaggerDoc("v1",
+                new OpenApiInfo
+                {
+                    Title = "FPAMS API",
+                    Version = "v1"
+                });
+
+            options.AddSecurityDefinition(
+                "Bearer",
+                new OpenApiSecurityScheme
+                {
+                    Name = "Authorization",
+
+                    Type = SecuritySchemeType.Http,
+
+                    Scheme = "Bearer",
+
+                    BearerFormat = "JWT",
+
+                    In = ParameterLocation.Header,
+
+                    Description = "Enter JWT Token"
+                });
+
+            options.AddSecurityRequirement(
+                new OpenApiSecurityRequirement
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference =
+                                new OpenApiReference
+                                {
+                                    Type = ReferenceType.SecurityScheme,
+                                    Id = "Bearer"
+                                }
+                        },
+                        Array.Empty<string>()
+                    }
+                });
+        });
 
         builder.Services.AddPersistenceServices(builder.Configuration);
 
@@ -25,8 +68,8 @@ public class Program
                 policy =>
                 {
                     policy.AllowAnyOrigin()
-                          .AllowAnyHeader()
-                          .AllowAnyMethod();
+                          .AllowAnyMethod()
+                          .AllowAnyHeader();
                 });
         });
 
@@ -35,6 +78,7 @@ public class Program
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();
+
             app.UseSwaggerUI();
         }
 

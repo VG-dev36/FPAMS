@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using FPAMS.Application.Common;
+using Microsoft.AspNetCore.Mvc;
 
 namespace FPAMS.API.Controllers;
 
@@ -9,12 +10,17 @@ public class HealthController : ControllerBase
     [HttpGet]
     public IActionResult Get()
     {
-        return Ok(new
-        {
-            Status = "Running",
-            Application = "FPAMS",
-            Version = "1.0.0",
-            Time = DateTime.Now
-        });
+        var response =
+            ApiResponseFactory.Success(
+                new
+                {
+                    Status = "Running",
+                    Application = "FPAMS",
+                    Version = "1.0.0",
+                    Time = DateTime.Now
+                },
+                "Application is running successfully.");
+
+        return Ok(response);
     }
 }

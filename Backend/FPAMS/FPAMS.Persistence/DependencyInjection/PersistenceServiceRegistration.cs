@@ -27,6 +27,8 @@ public static class PersistenceServiceRegistration
 
         services.AddScoped<IAcademicYearRepository, AcademicYearRepository>();
 
+        services.AddScoped<IDesignationRepository, DesignationRepository>();
+
         return services;
     }
 }

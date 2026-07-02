@@ -67,6 +67,8 @@ public static class DependencyInjection
 
         services.AddScoped<IAcademicYearService, AcademicYearService>();
 
+        services.AddScoped<DesignationService>();
+
         return services;
     }
 }

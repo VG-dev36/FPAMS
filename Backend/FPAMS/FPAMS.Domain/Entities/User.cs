@@ -16,8 +16,6 @@ public class User : BaseEntity
 
     public string PasswordHash { get; set; } = string.Empty;
 
-    public string Designation { get; set; } = string.Empty;
-
     public bool IsActive { get; set; } = true;
 
     public Guid RoleId { get; set; }
@@ -27,4 +25,8 @@ public class User : BaseEntity
     public Guid? DepartmentId { get; set; }
 
     public Department? Department { get; set; }
+
+    public Guid? DesignationId { get; set; }
+
+    public Designation? Designation { get; set; }
 }

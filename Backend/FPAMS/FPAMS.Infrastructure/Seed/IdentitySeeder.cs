@@ -51,7 +51,7 @@ public static class IdentitySeeder
 
             Mobile = "9999999999",
 
-            Designation = "Administrator",
+            Designation = null,
 
             IsActive = true,
 

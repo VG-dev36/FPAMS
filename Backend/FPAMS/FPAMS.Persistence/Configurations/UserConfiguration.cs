@@ -37,5 +37,10 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
         builder.HasOne(x => x.Department)
             .WithMany(x => x.Users)
             .HasForeignKey(x => x.DepartmentId);
+
+        builder.HasOne(x => x.Designation)
+           .WithMany(x => x.Users)
+           .HasForeignKey(x => x.DesignationId)
+           .OnDelete(DeleteBehavior.Restrict);
     }
 }

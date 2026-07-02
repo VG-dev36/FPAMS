@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FPAMS.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecfbd932ca5a3c22da6b15740e65803aa9c57a32")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee53772643301d5da314ee9d81e76fd43b116034")]
 [assembly: System.Reflection.AssemblyProductAttribute("FPAMS.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FPAMS.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

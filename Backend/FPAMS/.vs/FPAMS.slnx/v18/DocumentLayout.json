@@ -3,44 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Persistence\\Migrations\\20260702085746_AddAcademicYearModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FPAMS.Persistence\\Migrations\\20260702085746_AddAcademicYearModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Persistence\\Migrations\\20260702094707_AddDesignationModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FPAMS.Persistence\\Migrations\\20260702094707_AddDesignationModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C94E5210-59ED-4C82-86BF-097EA5389E8A}|FPAMS.Infrastructure\\FPAMS.Infrastructure.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C94E5210-59ED-4C82-86BF-097EA5389E8A}|FPAMS.Infrastructure\\FPAMS.Infrastructure.csproj|solutionrelative:fpams.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.api\\controllers\\academicyearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|solutionrelative:fpams.api\\controllers\\academicyearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C94E5210-59ED-4C82-86BF-097EA5389E8A}|FPAMS.Infrastructure\\FPAMS.Infrastructure.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.infrastructure\\services\\academicyearservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C94E5210-59ED-4C82-86BF-097EA5389E8A}|FPAMS.Infrastructure\\FPAMS.Infrastructure.csproj|solutionrelative:fpams.infrastructure\\services\\academicyearservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94C83726-8625-4F80-BBAA-F150A3910958}|FPAMS.Persistence\\FPAMS.Persistence.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.persistence\\dependencyinjection\\persistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94C83726-8625-4F80-BBAA-F150A3910958}|FPAMS.Persistence\\FPAMS.Persistence.csproj|solutionrelative:fpams.persistence\\dependencyinjection\\persistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94C83726-8625-4F80-BBAA-F150A3910958}|FPAMS.Persistence\\FPAMS.Persistence.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.persistence\\repositories\\academicyearrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94C83726-8625-4F80-BBAA-F150A3910958}|FPAMS.Persistence\\FPAMS.Persistence.csproj|solutionrelative:fpams.persistence\\repositories\\academicyearrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7F1C5C7-5CB7-4CED-A33A-F523D20B8525}|FPAMS.Application\\FPAMS.Application.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.application\\interfaces\\iacademicyearservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7F1C5C7-5CB7-4CED-A33A-F523D20B8525}|FPAMS.Application\\FPAMS.Application.csproj|solutionrelative:fpams.application\\interfaces\\iacademicyearservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7F1C5C7-5CB7-4CED-A33A-F523D20B8525}|FPAMS.Application\\FPAMS.Application.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.application\\interfaces\\iacademicyearrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7F1C5C7-5CB7-4CED-A33A-F523D20B8525}|FPAMS.Application\\FPAMS.Application.csproj|solutionrelative:fpams.application\\interfaces\\iacademicyearrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7F1C5C7-5CB7-4CED-A33A-F523D20B8525}|FPAMS.Application\\FPAMS.Application.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.application\\dtos\\academicyear\\academicyearresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7F1C5C7-5CB7-4CED-A33A-F523D20B8525}|FPAMS.Application\\FPAMS.Application.csproj|solutionrelative:fpams.application\\dtos\\academicyear\\academicyearresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7F1C5C7-5CB7-4CED-A33A-F523D20B8525}|FPAMS.Application\\FPAMS.Application.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.application\\dtos\\academicyear\\updateacademicyearrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7F1C5C7-5CB7-4CED-A33A-F523D20B8525}|FPAMS.Application\\FPAMS.Application.csproj|solutionrelative:fpams.application\\dtos\\academicyear\\updateacademicyearrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.api\\controllers\\designationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|solutionrelative:fpams.api\\controllers\\designationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,131 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20260702085746_AddAcademicYearModule.cs",
-              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Persistence\\Migrations\\20260702085746_AddAcademicYearModule.cs",
-              "RelativeDocumentMoniker": "FPAMS.Persistence\\Migrations\\20260702085746_AddAcademicYearModule.cs",
-              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Persistence\\Migrations\\20260702085746_AddAcademicYearModule.cs",
-              "RelativeToolTip": "FPAMS.Persistence\\Migrations\\20260702085746_AddAcademicYearModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "20260702094707_AddDesignationModule.cs",
+              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Persistence\\Migrations\\20260702094707_AddDesignationModule.cs",
+              "RelativeDocumentMoniker": "FPAMS.Persistence\\Migrations\\20260702094707_AddDesignationModule.cs",
+              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Persistence\\Migrations\\20260702094707_AddDesignationModule.cs",
+              "RelativeToolTip": "FPAMS.Persistence\\Migrations\\20260702094707_AddDesignationModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T08:57:46.838Z",
+              "WhenOpened": "2026-07-02T09:47:07.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "FPAMS.Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "FPAMS.Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAQwEMAAABIAAAAAAAAAA==",
+              "Title": "DesignationController.cs",
+              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Controllers\\DesignationController.cs",
+              "RelativeDocumentMoniker": "FPAMS.API\\Controllers\\DesignationController.cs",
+              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Controllers\\DesignationController.cs",
+              "RelativeToolTip": "FPAMS.API\\Controllers\\DesignationController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAcwEEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T08:55:22.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AcademicYearController.cs",
-              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Controllers\\AcademicYearController.cs",
-              "RelativeDocumentMoniker": "FPAMS.API\\Controllers\\AcademicYearController.cs",
-              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Controllers\\AcademicYearController.cs",
-              "RelativeToolTip": "FPAMS.API\\Controllers\\AcademicYearController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAkwEEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T08:54:52.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AcademicYearService.cs",
-              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Infrastructure\\Services\\AcademicYearService.cs",
-              "RelativeDocumentMoniker": "FPAMS.Infrastructure\\Services\\AcademicYearService.cs",
-              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Infrastructure\\Services\\AcademicYearService.cs",
-              "RelativeToolTip": "FPAMS.Infrastructure\\Services\\AcademicYearService.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAkwHwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T08:54:23.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PersistenceServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Persistence\\DependencyInjection\\PersistenceServiceRegistration.cs",
-              "RelativeDocumentMoniker": "FPAMS.Persistence\\DependencyInjection\\PersistenceServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Persistence\\DependencyInjection\\PersistenceServiceRegistration.cs",
-              "RelativeToolTip": "FPAMS.Persistence\\DependencyInjection\\PersistenceServiceRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T08:53:26.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AcademicYearRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Persistence\\Repositories\\AcademicYearRepository.cs",
-              "RelativeDocumentMoniker": "FPAMS.Persistence\\Repositories\\AcademicYearRepository.cs",
-              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Persistence\\Repositories\\AcademicYearRepository.cs",
-              "RelativeToolTip": "FPAMS.Persistence\\Repositories\\AcademicYearRepository.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAA5wDwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T08:53:06.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IAcademicYearService.cs",
-              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Application\\Interfaces\\IAcademicYearService.cs",
-              "RelativeDocumentMoniker": "FPAMS.Application\\Interfaces\\IAcademicYearService.cs",
-              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Application\\Interfaces\\IAcademicYearService.cs",
-              "RelativeToolTip": "FPAMS.Application\\Interfaces\\IAcademicYearService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T08:52:30.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IAcademicYearRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Application\\Interfaces\\IAcademicYearRepository.cs",
-              "RelativeDocumentMoniker": "FPAMS.Application\\Interfaces\\IAcademicYearRepository.cs",
-              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Application\\Interfaces\\IAcademicYearRepository.cs",
-              "RelativeToolTip": "FPAMS.Application\\Interfaces\\IAcademicYearRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T08:52:07.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AcademicYearResponse.cs",
-              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Application\\DTOs\\AcademicYear\\AcademicYearResponse.cs",
-              "RelativeDocumentMoniker": "FPAMS.Application\\DTOs\\AcademicYear\\AcademicYearResponse.cs",
-              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Application\\DTOs\\AcademicYear\\AcademicYearResponse.cs",
-              "RelativeToolTip": "FPAMS.Application\\DTOs\\AcademicYear\\AcademicYearResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T08:51:42.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UpdateAcademicYearRequest.cs",
-              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Application\\DTOs\\AcademicYear\\UpdateAcademicYearRequest.cs",
-              "RelativeDocumentMoniker": "FPAMS.Application\\DTOs\\AcademicYear\\UpdateAcademicYearRequest.cs",
-              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Application\\DTOs\\AcademicYear\\UpdateAcademicYearRequest.cs",
-              "RelativeToolTip": "FPAMS.Application\\DTOs\\AcademicYear\\UpdateAcademicYearRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T08:51:10.734Z",
+              "WhenOpened": "2026-07-02T09:46:31.757Z",
               "EditorCaption": ""
             }
           ]

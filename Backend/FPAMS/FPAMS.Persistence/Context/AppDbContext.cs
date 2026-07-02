@@ -19,6 +19,8 @@ public class AppDbContext : DbContext
 
     public DbSet<AcademicYear> AcademicYears => Set<AcademicYear>();
 
+    public DbSet<Designation> Designations => Set<Designation>();
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
@@ -27,5 +29,6 @@ public class AppDbContext : DbContext
             typeof(AppDbContext).Assembly);
 
         modelBuilder.ApplyConfiguration(new AcademicYearConfiguration());
+
     }
 }

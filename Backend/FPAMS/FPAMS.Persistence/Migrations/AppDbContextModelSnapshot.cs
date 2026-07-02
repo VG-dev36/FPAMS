@@ -96,6 +96,51 @@ namespace FPAMS.Persistence.Migrations
                     b.ToTable("Departments", (string)null);
                 });
 
+            modelBuilder.Entity("FPAMS.Domain.Entities.Designation", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("DesignationCode")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<string>("DesignationName")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
+
+                    b.Property<int>("DisplayOrder")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasDefaultValue(0);
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedOn")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DesignationCode")
+                        .IsUnique();
+
+                    b.ToTable("Designations", (string)null);
+                });
+
             modelBuilder.Entity("FPAMS.Domain.Entities.Role", b =>
                 {
                     b.Property<Guid>("Id")
@@ -140,9 +185,8 @@ namespace FPAMS.Persistence.Migrations
                     b.Property<Guid?>("DepartmentId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("Designation")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<Guid?>("DesignationId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -188,6 +232,8 @@ namespace FPAMS.Persistence.Migrations
 
                     b.HasIndex("DepartmentId");
 
+                    b.HasIndex("DesignationId");
+
                     b.HasIndex("Email")
                         .IsUnique();
 
@@ -202,6 +248,11 @@ namespace FPAMS.Persistence.Migrations
                         .WithMany("Users")
                         .HasForeignKey("DepartmentId");
 
+                    b.HasOne("FPAMS.Domain.Entities.Designation", "Designation")
+                        .WithMany("Users")
+                        .HasForeignKey("DesignationId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
                     b.HasOne("FPAMS.Domain.Entities.Role", "Role")
                         .WithMany("Users")
                         .HasForeignKey("RoleId")
@@ -210,10 +261,17 @@ namespace FPAMS.Persistence.Migrations
 
                     b.Navigation("Department");
 
+                    b.Navigation("Designation");
+
                     b.Navigation("Role");
                 });
 
             modelBuilder.Entity("FPAMS.Domain.Entities.Department", b =>
+                {
+                    b.Navigation("Users");
+                });
+
+            modelBuilder.Entity("FPAMS.Domain.Entities.Designation", b =>
                 {
                     b.Navigation("Users");
                 });

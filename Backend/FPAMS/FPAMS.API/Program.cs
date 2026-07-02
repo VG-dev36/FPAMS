@@ -2,6 +2,7 @@ using FPAMS.Infrastructure;
 using FPAMS.Persistence.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using FPAMS.Persistence.Extensions;
+using FPAMS.Infrastructure.Seed;
 
 namespace FPAMS.API;
 
@@ -94,6 +95,8 @@ public class Program
         app.MapControllers();
 
         await DatabaseInitializer.InitialiseAsync(app.Services);
+
+        await IdentitySeeder.SeedAsync(app.Services);
 
         app.Run();     
 

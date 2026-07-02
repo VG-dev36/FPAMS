@@ -17,17 +17,17 @@ public class AuthController : ControllerBase
 
     [HttpPost("login")]
     [ProducesResponseType(typeof(LoginResponse), StatusCodes.Status200OK)]
-    [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+    [ProducesResponseType(typeof(LoginResponse), StatusCodes.Status401Unauthorized)]
     public async Task<IActionResult> Login([FromBody] LoginRequest request)
     {
         if (!ModelState.IsValid)
             return BadRequest(ModelState);
 
-        var response = await _authService.LoginAsync(request);
+        var result = await _authService.LoginAsync(request);
 
-        if (!response.Success)
-            return Unauthorized(response);
+        if (!result.Success)
+            return Unauthorized(result);
 
-        return Ok(response);
+        return Ok(result);
     }
 }

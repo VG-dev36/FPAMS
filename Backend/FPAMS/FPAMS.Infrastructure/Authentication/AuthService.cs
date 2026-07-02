@@ -1,29 +1,31 @@
 ﻿using FPAMS.Application.DTOs.Auth;
 using FPAMS.Application.Interfaces;
+using FPAMS.Persistence.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace FPAMS.Infrastructure.Authentication;
 
 public class AuthService : IAuthService
 {
-    private readonly IUserRepository _users;
-
+    private readonly AppDbContext _context;
     private readonly IPasswordHasher _passwordHasher;
-
-    private readonly IJwtService _jwt;
+    private readonly IJwtService _jwtService;
 
     public AuthService(
-        IUserRepository users,
+        AppDbContext context,
         IPasswordHasher passwordHasher,
-        IJwtService jwt)
+        IJwtService jwtService)
     {
-        _users = users;
+        _context = context;
         _passwordHasher = passwordHasher;
-        _jwt = jwt;
+        _jwtService = jwtService;
     }
 
     public async Task<LoginResponse> LoginAsync(LoginRequest request)
     {
-        var user = await _users.GetByEmailAsync(request.Email);
+        var user = await _context.Users
+            .Include(x => x.Role)
+            .FirstOrDefaultAsync(x => x.Email == request.Email);
 
         if (user == null)
         {
@@ -34,9 +36,11 @@ public class AuthService : IAuthService
             };
         }
 
-        if (!_passwordHasher.VerifyPassword(
-                request.Password,
-                user.PasswordHash))
+        var valid = _passwordHasher.VerifyPassword(
+            request.Password,
+            user.PasswordHash);
+
+        if (!valid)
         {
             return new LoginResponse
             {
@@ -45,25 +49,26 @@ public class AuthService : IAuthService
             };
         }
 
-        var token = _jwt.GenerateToken(
+        var token = _jwtService.GenerateToken(
             user,
-            user.Role!.Name);
+            user.Role.Name);
 
         return new LoginResponse
         {
             Success = true,
+            Message = "Login successful.",
 
             Token = token,
 
-            Email = user.Email,
+            UserId = user.Id,
+
+            EmployeeCode = user.EmployeeCode,
 
             FullName = $"{user.FirstName} {user.LastName}",
 
             Role = user.Role.Name,
 
-            ExpiresOn = DateTime.UtcNow.AddHours(24),
-
-            Message = "Login Successful."
+            Email = user.Email
         };
     }
 }

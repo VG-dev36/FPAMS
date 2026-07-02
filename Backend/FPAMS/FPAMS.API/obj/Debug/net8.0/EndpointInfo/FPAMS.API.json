@@ -55,20 +55,134 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
+                  "$ref": "#/components/schemas/LoginResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
+                  "$ref": "#/components/schemas/LoginResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
+                  "$ref": "#/components/schemas/LoginResponse"
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "/api/Department": {
+      "get": {
+        "tags": [
+          "Department"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Department"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateDepartmentRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateDepartmentRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateDepartmentRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Department"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateDepartmentRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateDepartmentRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateDepartmentRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Department/{id}": {
+      "get": {
+        "tags": [
+          "Department"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Department"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }
@@ -151,6 +265,29 @@
   },
   "components": {
     "schemas": {
+      "CreateDepartmentRequest": {
+        "required": [
+          "departmentCode",
+          "departmentName"
+        ],
+        "type": "object",
+        "properties": {
+          "departmentCode": {
+            "maxLength": 20,
+            "minLength": 1,
+            "type": "string"
+          },
+          "departmentName": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "isActive": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
       "LoginRequest": {
         "required": [
           "email",
@@ -176,19 +313,23 @@
           "success": {
             "type": "boolean"
           },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
           "token": {
             "type": "string",
             "nullable": true
           },
-          "expiresOn": {
+          "userId": {
             "type": "string",
-            "format": "date-time"
+            "format": "uuid"
           },
-          "fullName": {
+          "employeeCode": {
             "type": "string",
             "nullable": true
           },
-          "email": {
+          "fullName": {
             "type": "string",
             "nullable": true
           },
@@ -196,39 +337,40 @@
             "type": "string",
             "nullable": true
           },
-          "message": {
+          "email": {
             "type": "string",
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "ProblemDetails": {
+      "UpdateDepartmentRequest": {
+        "required": [
+          "departmentCode",
+          "departmentName",
+          "id"
+        ],
         "type": "object",
         "properties": {
-          "type": {
+          "id": {
             "type": "string",
-            "nullable": true
+            "format": "uuid"
           },
-          "title": {
-            "type": "string",
-            "nullable": true
+          "departmentCode": {
+            "maxLength": 20,
+            "minLength": 1,
+            "type": "string"
           },
-          "status": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
+          "departmentName": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
           },
-          "detail": {
-            "type": "string",
-            "nullable": true
-          },
-          "instance": {
-            "type": "string",
-            "nullable": true
+          "isActive": {
+            "type": "boolean"
           }
         },
-        "additionalProperties": { }
+        "additionalProperties": false
       },
       "WeatherForecast": {
         "type": "object",

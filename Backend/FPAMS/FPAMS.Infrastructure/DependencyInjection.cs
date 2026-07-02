@@ -69,6 +69,8 @@ public static class DependencyInjection
 
         services.AddScoped<DesignationService>();
 
+        services.AddScoped<IUserService, UserService>();
+
         return services;
     }
 }

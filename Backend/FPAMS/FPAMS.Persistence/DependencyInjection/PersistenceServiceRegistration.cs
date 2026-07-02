@@ -29,6 +29,7 @@ public static class PersistenceServiceRegistration
 
         services.AddScoped<IDesignationRepository, DesignationRepository>();
 
+
         return services;
     }
 }

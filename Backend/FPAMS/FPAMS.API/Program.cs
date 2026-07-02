@@ -1,12 +1,13 @@
 using FPAMS.Infrastructure;
 using FPAMS.Persistence.DependencyInjection;
 using Microsoft.OpenApi.Models;
+using FPAMS.Persistence.Extensions;
 
 namespace FPAMS.API;
 
 public class Program
 {
-    public static void Main(string[] args)
+    public static async Task Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
 
@@ -92,6 +93,9 @@ public class Program
 
         app.MapControllers();
 
-        app.Run();
+        await DatabaseInitializer.InitialiseAsync(app.Services);
+
+        app.Run();     
+
     }
 }

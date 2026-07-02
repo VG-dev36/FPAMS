@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.api\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|solutionrelative:fpams.api\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.api\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|solutionrelative:fpams.api\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|solutionrelative:fpams.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -27,40 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HealthController.cs",
-              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Controllers\\HealthController.cs",
-              "RelativeDocumentMoniker": "FPAMS.API\\Controllers\\HealthController.cs",
-              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Controllers\\HealthController.cs",
-              "RelativeToolTip": "FPAMS.API\\Controllers\\HealthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T06:22:11.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TestController.cs",
-              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Controllers\\TestController.cs",
-              "RelativeDocumentMoniker": "FPAMS.API\\Controllers\\TestController.cs",
-              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Controllers\\TestController.cs",
-              "RelativeToolTip": "FPAMS.API\\Controllers\\TestController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T06:21:54.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Program.cs",
               "RelativeDocumentMoniker": "FPAMS.API\\Program.cs",
               "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Program.cs",
               "RelativeToolTip": "FPAMS.API\\Program.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAAAGAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T06:21:23.086Z",
+              "WhenOpened": "2026-07-02T06:30:23.74Z",
+              "IsPinned": true,
               "EditorCaption": ""
             }
           ]

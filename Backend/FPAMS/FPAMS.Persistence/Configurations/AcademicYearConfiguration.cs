@@ -4,8 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace FPAMS.Persistence.Configurations;
 
-public class AcademicYearConfiguration :
-    IEntityTypeConfiguration<AcademicYear>
+public class AcademicYearConfiguration : IEntityTypeConfiguration<AcademicYear>
 {
     public void Configure(EntityTypeBuilder<AcademicYear> builder)
     {
@@ -14,7 +13,19 @@ public class AcademicYearConfiguration :
         builder.HasKey(x => x.Id);
 
         builder.Property(x => x.YearName)
-            .HasMaxLength(30)
-            .IsRequired();
+               .HasMaxLength(30)
+               .IsRequired();
+
+        builder.Property(x => x.StartDate)
+               .IsRequired();
+
+        builder.Property(x => x.EndDate)
+               .IsRequired();
+
+        builder.Property(x => x.IsCurrent)
+               .HasDefaultValue(false);
+
+        builder.Property(x => x.IsActive)
+               .HasDefaultValue(true);
     }
 }

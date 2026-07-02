@@ -1,5 +1,79 @@
 [
   {
+    "ContainingType": "FPAMS.API.Controllers.AcademicYearController",
+    "Method": "GetAll",
+    "RelativePath": "api/AcademicYear",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.AcademicYearController",
+    "Method": "Create",
+    "RelativePath": "api/AcademicYear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FPAMS.Application.DTOs.AcademicYear.CreateAcademicYearRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.AcademicYearController",
+    "Method": "Update",
+    "RelativePath": "api/AcademicYear",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FPAMS.Application.DTOs.AcademicYear.UpdateAcademicYearRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.AcademicYearController",
+    "Method": "Get",
+    "RelativePath": "api/AcademicYear/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.AcademicYearController",
+    "Method": "Delete",
+    "RelativePath": "api/AcademicYear/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FPAMS.API.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",

@@ -1,4 +1,5 @@
 using FPAMS.Domain.Entities;
+using FPAMS.Persistence.Configurations;
 using Microsoft.EntityFrameworkCore;
 
 namespace FPAMS.Persistence.Context;
@@ -24,5 +25,7 @@ public class AppDbContext : DbContext
 
         modelBuilder.ApplyConfigurationsFromAssembly(
             typeof(AppDbContext).Assembly);
+
+        modelBuilder.ApplyConfiguration(new AcademicYearConfiguration());
     }
 }

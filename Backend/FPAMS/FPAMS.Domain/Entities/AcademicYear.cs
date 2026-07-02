@@ -11,4 +11,6 @@ public class AcademicYear : BaseEntity
     public DateTime EndDate { get; set; }
 
     public bool IsCurrent { get; set; }
+
+    public bool IsActive { get; set; } = true;
 }

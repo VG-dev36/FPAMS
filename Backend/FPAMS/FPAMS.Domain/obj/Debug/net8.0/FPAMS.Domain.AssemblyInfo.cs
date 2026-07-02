@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FPAMS.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88b479d4b141366204a5f09f2ec63d5b1a3003f0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecfbd932ca5a3c22da6b15740e65803aa9c57a32")]
 [assembly: System.Reflection.AssemblyProductAttribute("FPAMS.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FPAMS.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

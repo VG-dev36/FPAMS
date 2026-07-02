@@ -10,8 +10,11 @@ public static class DatabaseInitializer
     {
         using var scope = services.CreateScope();
 
-        var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+        var context =
+            scope.ServiceProvider.GetRequiredService<AppDbContext>();
 
         await context.Database.MigrateAsync();
+
+        await DbSeeder.SeedAsync(context);
     }
 }

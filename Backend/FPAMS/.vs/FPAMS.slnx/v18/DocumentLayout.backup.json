@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Persistence\\Migrations\\20260702070115_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FPAMS.Persistence\\Migrations\\20260702070115_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C83726-8625-4F80-BBAA-F150A3910958}|FPAMS.Persistence\\FPAMS.Persistence.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.persistence\\extensions\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C83726-8625-4F80-BBAA-F150A3910958}|FPAMS.Persistence\\FPAMS.Persistence.csproj|solutionrelative:fpams.persistence\\extensions\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C83726-8625-4F80-BBAA-F150A3910958}|FPAMS.Persistence\\FPAMS.Persistence.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.persistence\\extensions\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C83726-8625-4F80-BBAA-F150A3910958}|FPAMS.Persistence\\FPAMS.Persistence.csproj|solutionrelative:fpams.persistence\\extensions\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|solutionrelative:fpams.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Program.cs",
               "RelativeDocumentMoniker": "FPAMS.API\\Program.cs",
@@ -28,6 +40,45 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-02T06:30:23.74Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20260702070115_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Persistence\\Migrations\\20260702070115_InitialCreate.cs",
+              "RelativeDocumentMoniker": "FPAMS.Persistence\\Migrations\\20260702070115_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Persistence\\Migrations\\20260702070115_InitialCreate.cs",
+              "RelativeToolTip": "FPAMS.Persistence\\Migrations\\20260702070115_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T07:01:15.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Persistence\\Extensions\\DatabaseInitializer.cs",
+              "RelativeDocumentMoniker": "FPAMS.Persistence\\Extensions\\DatabaseInitializer.cs",
+              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Persistence\\Extensions\\DatabaseInitializer.cs",
+              "RelativeToolTip": "FPAMS.Persistence\\Extensions\\DatabaseInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T06:53:09.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Persistence\\Extensions\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "FPAMS.Persistence\\Extensions\\DbSeeder.cs",
+              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Persistence\\Extensions\\DbSeeder.cs",
+              "RelativeToolTip": "FPAMS.Persistence\\Extensions\\DbSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T06:52:56.757Z",
               "EditorCaption": ""
             }
           ]

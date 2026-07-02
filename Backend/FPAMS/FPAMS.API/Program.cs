@@ -1,8 +1,9 @@
+using FPAMS.API.Middleware;
 using FPAMS.Infrastructure;
-using FPAMS.Persistence.DependencyInjection;
-using Microsoft.OpenApi.Models;
-using FPAMS.Persistence.Extensions;
 using FPAMS.Infrastructure.Seed;
+using FPAMS.Persistence.DependencyInjection;
+using FPAMS.Persistence.Extensions;
+using Microsoft.OpenApi.Models;
 
 namespace FPAMS.API;
 
@@ -76,6 +77,8 @@ public class Program
         });
 
         var app = builder.Build();
+
+        app.UseMiddleware<GlobalExceptionMiddleware>();
 
         if (app.Environment.IsDevelopment())
         {

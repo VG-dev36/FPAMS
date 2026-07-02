@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FPAMS.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60c432ed836a9554acca4deb7a3cb0acd88e8d44")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebe69a7cf7e1101477bd808066aae229f67f2dff")]
 [assembly: System.Reflection.AssemblyProductAttribute("FPAMS.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FPAMS.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

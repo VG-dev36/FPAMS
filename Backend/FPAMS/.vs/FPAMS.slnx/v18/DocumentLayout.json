@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.api\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|solutionrelative:fpams.api\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.api\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|solutionrelative:fpams.api\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|solutionrelative:fpams.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|c:\\users\\vinay\\desktop\\fpams\\backend\\fpams\\fpams.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53B4B207-A3DB-8ACA-4A21-2EE185DC356A}|FPAMS.API\\FPAMS.API.csproj|solutionrelative:fpams.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,6 +55,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HealthController.cs",
+              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Controllers\\HealthController.cs",
+              "RelativeDocumentMoniker": "FPAMS.API\\Controllers\\HealthController.cs",
+              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Controllers\\HealthController.cs",
+              "RelativeToolTip": "FPAMS.API\\Controllers\\HealthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T10:37:31.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Program.cs",
+              "RelativeDocumentMoniker": "FPAMS.API\\Program.cs",
+              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Program.cs",
+              "RelativeToolTip": "FPAMS.API\\Program.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAjwFAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T10:33:53.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "FPAMS.API\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "FPAMS.API\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T10:33:40.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "FPAMS.API\\Controllers\\UserController.cs",
@@ -55,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Infrastructure\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "FPAMS.Infrastructure\\Services\\UserService.cs",
@@ -63,12 +114,11 @@
               "RelativeToolTip": "FPAMS.Infrastructure\\Services\\UserService.cs",
               "ViewState": "AgIAAH4AAAAAAAAAAAAAAJgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:15:37.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-02T10:15:37.579Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "FPAMS.Infrastructure\\DependencyInjection.cs",
@@ -76,12 +126,11 @@
               "RelativeToolTip": "FPAMS.Infrastructure\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:15:40.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-02T10:15:40.123Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "PersistenceServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Persistence\\DependencyInjection\\PersistenceServiceRegistration.cs",
               "RelativeDocumentMoniker": "FPAMS.Persistence\\DependencyInjection\\PersistenceServiceRegistration.cs",
@@ -89,12 +138,11 @@
               "RelativeToolTip": "FPAMS.Persistence\\DependencyInjection\\PersistenceServiceRegistration.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAwwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:15:15.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-02T10:15:15.897Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "CreateUserRequest.cs",
               "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Application\\DTOs\\User\\CreateUserRequest.cs",
               "RelativeDocumentMoniker": "FPAMS.Application\\DTOs\\User\\CreateUserRequest.cs",
@@ -102,12 +150,11 @@
               "RelativeToolTip": "FPAMS.Application\\DTOs\\User\\CreateUserRequest.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAwCEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T09:56:39.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-02T09:56:39.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "20260702094707_AddDesignationModule.cs",
               "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.Persistence\\Migrations\\20260702094707_AddDesignationModule.cs",
               "RelativeDocumentMoniker": "FPAMS.Persistence\\Migrations\\20260702094707_AddDesignationModule.cs",
@@ -115,12 +162,11 @@
               "RelativeToolTip": "FPAMS.Persistence\\Migrations\\20260702094707_AddDesignationModule.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T09:47:07.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-02T09:47:07.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "DesignationController.cs",
               "DocumentMoniker": "C:\\Users\\vinay\\Desktop\\FPAMS\\Backend\\FPAMS\\FPAMS.API\\Controllers\\DesignationController.cs",
               "RelativeDocumentMoniker": "FPAMS.API\\Controllers\\DesignationController.cs",

@@ -267,6 +267,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FPAMS.API.Controllers.HealthController",
+    "Method": "Error",
+    "RelativePath": "api/Health/error",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FPAMS.API.Controllers.TestController",
     "Method": "Private",
     "RelativePath": "api/Test/private",

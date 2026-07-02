@@ -427,6 +427,18 @@
         }
       }
     },
+    "/api/Health/error": {
+      "get": {
+        "tags": [
+          "Health"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Test/public": {
       "get": {
         "tags": [

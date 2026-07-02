@@ -3656,6 +3656,7 @@
       "FPAMS.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.28",
       "Microsoft.AspNetCore.Identity >= 2.3.11",
+      "Microsoft.IdentityModel.Tokens >= 8.19.1",
       "System.IdentityModel.Tokens.Jwt >= 8.19.1"
     ]
   },
@@ -3731,6 +3732,10 @@
           "Microsoft.AspNetCore.Identity": {
             "target": "Package",
             "version": "[2.3.11, )"
+          },
+          "Microsoft.IdentityModel.Tokens": {
+            "target": "Package",
+            "version": "[8.19.1, )"
           },
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",

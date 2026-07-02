@@ -1,12 +1,11 @@
 ﻿using FPAMS.Application.Interfaces;
 using Microsoft.AspNetCore.Identity;
 
-namespace FPAMS.Application.Authentication;
+namespace FPAMS.Infrastructure.Authentication;
 
 public class PasswordHasher : IPasswordHasher
 {
-    private readonly Microsoft.AspNetCore.Identity.PasswordHasher<object> _hasher =
-        new();
+    private readonly Microsoft.AspNetCore.Identity.PasswordHasher<object> _hasher = new();
 
     public string HashPassword(string password)
     {
@@ -15,12 +14,9 @@ public class PasswordHasher : IPasswordHasher
 
     public bool VerifyPassword(string password, string hash)
     {
-        var result = _hasher.VerifyHashedPassword(
-            null!,
-            hash,
-            password);
+        var result = _hasher.VerifyHashedPassword(null!, hash, password);
 
-        return result == PasswordVerificationResult.Success
-            || result == PasswordVerificationResult.SuccessRehashNeeded;
+        return result == PasswordVerificationResult.Success ||
+               result == PasswordVerificationResult.SuccessRehashNeeded;
     }
 }

@@ -32,7 +32,7 @@ const departmentService = {
 
     async update(data: UpdateDepartmentRequest): Promise<void> {
 
-        await api.put(`${endpoint}/${data.id}`, data);
+        await api.put(endpoint, data);
 
     },
 

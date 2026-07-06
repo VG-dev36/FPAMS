@@ -3,6 +3,7 @@ using FPAMS.Infrastructure;
 using FPAMS.Infrastructure.Seed;
 using FPAMS.Persistence.DependencyInjection;
 using FPAMS.Persistence.Extensions;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.OpenApi.Models;
 
 namespace FPAMS.API;
@@ -13,7 +14,18 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
+        builder.Logging.ClearProviders();
+        builder.Logging.AddConsole();
+
         builder.Services.AddControllers();
+
+        builder.Services.AddDataProtection()
+            .PersistKeysToFileSystem(
+                new DirectoryInfo(
+                    Path.Combine(
+                        builder.Environment.ContentRootPath,
+                        "App_Data",
+                        "DataProtectionKeys")));
 
         builder.Services.AddEndpointsApiExplorer();
 
@@ -97,9 +109,12 @@ public class Program
 
         app.MapControllers();
 
-        await DatabaseInitializer.InitialiseAsync(app.Services);
+        if (builder.Configuration.GetValue("Database:ApplyMigrationsOnStartup", true))
+        {
+            await DatabaseInitializer.InitialiseAsync(app.Services);
 
-        await IdentitySeeder.SeedAsync(app.Services);
+            await IdentitySeeder.SeedAsync(app.Services);
+        }
 
         app.Run();     
 

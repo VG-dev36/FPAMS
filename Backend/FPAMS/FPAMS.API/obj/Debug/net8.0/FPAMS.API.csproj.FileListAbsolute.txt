@@ -187,7 +187,6 @@ C:\Users\vinay\Desktop\FPAMS\Backend\FPAMS\FPAMS.API\obj\Debug\net8.0\staticweba
 C:\Users\vinay\Desktop\FPAMS\Backend\FPAMS\FPAMS.API\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\vinay\Desktop\FPAMS\Backend\FPAMS\FPAMS.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\vinay\Desktop\FPAMS\Backend\FPAMS\FPAMS.API\obj\Debug\net8.0\swae.build.ex.cache
-C:\Users\vinay\Desktop\FPAMS\Backend\FPAMS\FPAMS.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\vinay\Desktop\FPAMS\Backend\FPAMS\FPAMS.API\obj\Debug\net8.0\FPAMS.API.csproj.Up2Date
 C:\Users\vinay\Desktop\FPAMS\Backend\FPAMS\FPAMS.API\obj\Debug\net8.0\FPAMS.API.genruntimeconfig.cache
 C:\Users\vinay\Desktop\FPAMS\Backend\FPAMS\FPAMS.API\obj\Debug\net8.0\ref\FPAMS.API.dll

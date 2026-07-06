@@ -14,9 +14,15 @@ public class UserResponse
 
     public string Mobile { get; set; } = string.Empty;
 
+    public Guid? DepartmentId { get; set; }
+
     public string Department { get; set; } = string.Empty;
 
+    public Guid? DesignationId { get; set; }
+
     public string Designation { get; set; } = string.Empty;
+
+    public Guid RoleId { get; set; }
 
     public string Role { get; set; } = string.Empty;
 

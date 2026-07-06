@@ -9,12 +9,14 @@ interface Props {
     departments: Department[];
     onEdit: (department: Department) => void;
     onDelete: (department: Department) => void;
+    loading?: boolean;
 }
 
 export default function DepartmentTable({
     departments,
     onEdit,
     onDelete,
+    loading = false,
 }: Props) {
 
     const columns: GridColDef[] = [
@@ -85,6 +87,8 @@ export default function DepartmentTable({
                 rows={departments}
 
                 columns={columns}
+
+                loading={loading}
 
                 getRowId={(row) => row.id}
 

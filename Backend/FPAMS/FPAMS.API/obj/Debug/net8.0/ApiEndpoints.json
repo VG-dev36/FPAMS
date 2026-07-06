@@ -74,6 +74,180 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FPAMS.API.Controllers.AppraisalFormController",
+    "Method": "GetAll",
+    "RelativePath": "api/AppraisalForm",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.AppraisalFormController",
+    "Method": "Create",
+    "RelativePath": "api/AppraisalForm",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FPAMS.Application.DTOs.Appraisal.CreateAppraisalFormRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.AppraisalFormController",
+    "Method": "Update",
+    "RelativePath": "api/AppraisalForm",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FPAMS.Application.DTOs.Appraisal.UpdateAppraisalFormRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.AppraisalFormController",
+    "Method": "Get",
+    "RelativePath": "api/AppraisalForm/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.AppraisalFormController",
+    "Method": "Delete",
+    "RelativePath": "api/AppraisalForm/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.AppraisalFormController",
+    "Method": "HodReview",
+    "RelativePath": "api/AppraisalForm/{id}/hod-review",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FPAMS.Application.DTOs.Appraisal.ReviewAppraisalRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.AppraisalFormController",
+    "Method": "IqacReview",
+    "RelativePath": "api/AppraisalForm/{id}/iqac-review",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FPAMS.Application.DTOs.Appraisal.ReviewAppraisalRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.AppraisalFormController",
+    "Method": "PrincipalReview",
+    "RelativePath": "api/AppraisalForm/{id}/principal-review",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FPAMS.Application.DTOs.Appraisal.ReviewAppraisalRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.AppraisalFormController",
+    "Method": "Return",
+    "RelativePath": "api/AppraisalForm/{id}/return",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FPAMS.Application.DTOs.Appraisal.ReviewAppraisalRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.AppraisalFormController",
+    "Method": "Submit",
+    "RelativePath": "api/AppraisalForm/{id}/submit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FPAMS.API.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
@@ -257,6 +431,154 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FPAMS.API.Controllers.EvidenceAttachmentController",
+    "Method": "Delete",
+    "RelativePath": "api/EvidenceAttachment/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.EvidenceAttachmentController",
+    "Method": "Download",
+    "RelativePath": "api/EvidenceAttachment/{id}/download",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.EvidenceAttachmentController",
+    "Method": "GetByAppraisal",
+    "RelativePath": "api/EvidenceAttachment/appraisal/{appraisalFormId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appraisalFormId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.EvidenceAttachmentController",
+    "Method": "Upload",
+    "RelativePath": "api/EvidenceAttachment/appraisal/{appraisalFormId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appraisalFormId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.FacultyProfileController",
+    "Method": "GetAll",
+    "RelativePath": "api/FacultyProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.FacultyProfileController",
+    "Method": "Create",
+    "RelativePath": "api/FacultyProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FPAMS.Application.DTOs.FacultyProfile.CreateFacultyProfileRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.FacultyProfileController",
+    "Method": "Update",
+    "RelativePath": "api/FacultyProfile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FPAMS.Application.DTOs.FacultyProfile.UpdateFacultyProfileRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.FacultyProfileController",
+    "Method": "Get",
+    "RelativePath": "api/FacultyProfile/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.FacultyProfileController",
+    "Method": "Delete",
+    "RelativePath": "api/FacultyProfile/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FPAMS.API.Controllers.HealthController",
     "Method": "Get",
     "RelativePath": "api/Health",
@@ -267,9 +589,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "FPAMS.API.Controllers.TestController",
-    "Method": "Private",
-    "RelativePath": "api/Test/private",
+    "ContainingType": "FPAMS.API.Controllers.HealthController",
+    "Method": "Database",
+    "RelativePath": "api/Health/database",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -277,9 +599,67 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "FPAMS.API.Controllers.TestController",
-    "Method": "Public",
-    "RelativePath": "api/Test/public",
+    "ContainingType": "FPAMS.API.Controllers.NotificationController",
+    "Method": "GetAll",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.NotificationController",
+    "Method": "Create",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FPAMS.Application.DTOs.Notification.CreateNotificationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.NotificationController",
+    "Method": "Delete",
+    "RelativePath": "api/Notification/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.NotificationController",
+    "Method": "MarkRead",
+    "RelativePath": "api/Notification/{id}/read",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FPAMS.API.Controllers.RoleController",
+    "Method": "GetAll",
+    "RelativePath": "api/Role",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -359,26 +739,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "FPAMS.API.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[FPAMS.API.WeatherForecast, FPAMS.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]

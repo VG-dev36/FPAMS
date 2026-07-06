@@ -71,6 +71,16 @@ public static class DependencyInjection
 
         services.AddScoped<IUserService, UserService>();
 
+        services.AddScoped<IRoleService, RoleService>();
+
+        services.AddScoped<IFacultyProfileService, FacultyProfileService>();
+
+        services.AddScoped<IAppraisalFormService, AppraisalFormService>();
+
+        services.AddScoped<IEvidenceAttachmentService, EvidenceAttachmentService>();
+
+        services.AddScoped<INotificationService, NotificationService>();
+
         return services;
     }
 }

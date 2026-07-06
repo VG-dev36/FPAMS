@@ -17,6 +17,7 @@ public class DepartmentRepository : IDepartmentRepository
     public async Task<List<Department>> GetAllAsync()
     {
         return await _context.Departments
+            .Where(x => !x.IsDeleted)
             .OrderBy(x => x.DepartmentName)
             .ToListAsync();
     }
@@ -24,13 +25,13 @@ public class DepartmentRepository : IDepartmentRepository
     public async Task<Department?> GetByIdAsync(Guid id)
     {
         return await _context.Departments
-            .FirstOrDefaultAsync(x => x.Id == id);
+            .FirstOrDefaultAsync(x => x.Id == id && !x.IsDeleted);
     }
 
     public async Task<Department?> GetByCodeAsync(string code)
     {
         return await _context.Departments
-            .FirstOrDefaultAsync(x => x.DepartmentCode == code);
+            .FirstOrDefaultAsync(x => x.DepartmentCode == code && !x.IsDeleted);
     }
 
     public async Task AddAsync(Department department)
@@ -45,7 +46,8 @@ public class DepartmentRepository : IDepartmentRepository
 
     public void Delete(Department department)
     {
-        _context.Departments.Remove(department);
+        department.IsDeleted = true;
+        Update(department);
     }
 
     public async Task SaveChangesAsync()

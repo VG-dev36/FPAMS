@@ -1,5 +1,6 @@
 ﻿using FPAMS.Application.DTOs.AcademicYear;
 using FPAMS.Application.Interfaces;
+using FPAMS.Shared.Constants;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,7 +8,7 @@ namespace FPAMS.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-[Authorize]
+[Authorize(Roles = Roles.SuperAdmin)]
 public class AcademicYearController : ControllerBase
 {
     private readonly IAcademicYearService _service;

@@ -1,5 +1,7 @@
-﻿using FPAMS.Application.Common;
+using FPAMS.Application.Common;
+using FPAMS.Persistence.Context;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace FPAMS.API.Controllers;
 
@@ -7,6 +9,13 @@ namespace FPAMS.API.Controllers;
 [Route("api/[controller]")]
 public class HealthController : ControllerBase
 {
+    private readonly AppDbContext _context;
+
+    public HealthController(AppDbContext context)
+    {
+        _context = context;
+    }
+
     [HttpGet]
     public IActionResult Get()
     {
@@ -22,5 +31,41 @@ public class HealthController : ControllerBase
                 "Application is running successfully.");
 
         return Ok(response);
+    }
+
+    [HttpGet("database")]
+    public async Task<IActionResult> Database()
+    {
+        try
+        {
+            var canConnect = await _context.Database.CanConnectAsync();
+
+            if (!canConnect)
+            {
+                return StatusCode(
+                    StatusCodes.Status503ServiceUnavailable,
+                    ApiResponseFactory.Failure<object>("Database is not reachable."));
+            }
+
+            var pendingMigrations = await _context.Database.GetPendingMigrationsAsync();
+
+            return Ok(
+                ApiResponseFactory.Success(
+                    new
+                    {
+                        Status = "Connected",
+                        PendingMigrations = pendingMigrations.ToList(),
+                        Time = DateTime.Now
+                    },
+                    "Database connection is healthy."));
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(
+                StatusCodes.Status503ServiceUnavailable,
+                ApiResponseFactory.Failure<object>(
+                    "Database health check failed.",
+                    ex.Message));
+        }
     }
 }

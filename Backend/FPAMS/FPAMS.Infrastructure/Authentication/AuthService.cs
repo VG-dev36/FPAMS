@@ -25,7 +25,10 @@ public class AuthService : IAuthService
     {
         var user = await _context.Users
             .Include(x => x.Role)
-            .FirstOrDefaultAsync(x => x.Email == request.Email);
+            .FirstOrDefaultAsync(x =>
+                x.Email == request.Email
+                && x.IsActive
+                && !x.IsDeleted);
 
         if (user == null)
         {

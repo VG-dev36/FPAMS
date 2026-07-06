@@ -19,7 +19,10 @@ public class UserRepository : IUserRepository
         return await _context.Users
             .Include(x => x.Role)
             .Include(x => x.Department)
-            .FirstOrDefaultAsync(x => x.Email == email);
+            .FirstOrDefaultAsync(x =>
+                x.Email == email
+                && x.IsActive
+                && !x.IsDeleted);
     }
 
     public async Task AddAsync(User user)

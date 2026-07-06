@@ -5,10 +5,18 @@ import {
   ListItemButton,
   ListItemText,
 } from "@mui/material";
+import { useLocation, useNavigate } from "react-router-dom";
+
+import { getNavigationForUser } from "../../config/roleAccess";
+import authService from "../../services/authService";
 
 const drawerWidth = 240;
 
 export default function Sidebar() {
+  const location = useLocation();
+  const navigate = useNavigate();
+  const navigationItems = getNavigationForUser(authService.getUser());
+
   return (
     <Drawer
       variant="permanent"
@@ -22,26 +30,15 @@ export default function Sidebar() {
       <Toolbar />
 
       <List>
-
-        <ListItemButton>
-          <ListItemText primary="Dashboard" />
-        </ListItemButton>
-
-        <ListItemButton>
-          <ListItemText primary="Departments" />
-        </ListItemButton>
-
-        <ListItemButton>
-          <ListItemText primary="Academic Years" />
-        </ListItemButton>
-
-        <ListItemButton>
-          <ListItemText primary="Designations" />
-        </ListItemButton>
-
-        <ListItemButton>
-          <ListItemText primary="Users" />
-        </ListItemButton>
+        {navigationItems.map((item) => (
+          <ListItemButton
+            key={item.path}
+            selected={location.pathname === item.path}
+            onClick={() => navigate(item.path)}
+          >
+            <ListItemText primary={item.label} />
+          </ListItemButton>
+        ))}
 
       </List>
 

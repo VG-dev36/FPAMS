@@ -1,5 +1,6 @@
 ﻿using FPAMS.Application.DTOs.User;
 using FPAMS.Application.Interfaces;
+using FPAMS.Shared.Constants;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,7 +8,7 @@ namespace FPAMS.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-[Authorize]
+[Authorize(Roles = Roles.SuperAdmin)]
 public class UserController : ControllerBase
 {
     private readonly IUserService _service;

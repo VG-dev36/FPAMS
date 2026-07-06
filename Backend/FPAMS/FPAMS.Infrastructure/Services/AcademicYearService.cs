@@ -75,7 +75,15 @@ public class AcademicYearService : IAcademicYearService
 
         await _repository.SaveChangesAsync();
 
-        return await GetByIdAsync(entity.Id)!;
+        return new AcademicYearResponse
+        {
+            Id = entity.Id,
+            YearName = entity.YearName,
+            StartDate = entity.StartDate,
+            EndDate = entity.EndDate,
+            IsCurrent = entity.IsCurrent,
+            IsActive = entity.IsActive
+        };
     }
 
     public async Task<AcademicYearResponse?> UpdateAsync(UpdateAcademicYearRequest request)

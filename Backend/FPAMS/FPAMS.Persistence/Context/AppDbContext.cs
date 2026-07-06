@@ -21,6 +21,14 @@ public class AppDbContext : DbContext
 
     public DbSet<Designation> Designations => Set<Designation>();
 
+    public DbSet<FacultyProfile> FacultyProfiles => Set<FacultyProfile>();
+
+    public DbSet<AppraisalForm> AppraisalForms => Set<AppraisalForm>();
+
+    public DbSet<EvidenceAttachment> EvidenceAttachments => Set<EvidenceAttachment>();
+
+    public DbSet<Notification> Notifications => Set<Notification>();
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);

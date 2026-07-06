@@ -25,6 +25,7 @@ public class UserService : IUserService
             .Include(x => x.Department)
             .Include(x => x.Designation)
             .Include(x => x.Role)
+            .Where(x => !x.IsDeleted)
             .Select(x => new UserResponse
             {
                 Id = x.Id,
@@ -33,14 +34,19 @@ public class UserService : IUserService
                 LastName = x.LastName,
                 Email = x.Email,
                 Mobile = x.Mobile,
+                DepartmentId = x.DepartmentId,
 
                 Department = x.Department != null
                     ? x.Department.DepartmentName
                     : "",
 
+                DesignationId = x.DesignationId,
+
                 Designation = x.Designation != null
                     ? x.Designation.DesignationName
                     : "",
+
+                RoleId = x.RoleId,
 
                 Role = x.Role != null
                     ? x.Role.Name
@@ -57,7 +63,7 @@ public class UserService : IUserService
             .Include(x => x.Department)
             .Include(x => x.Designation)
             .Include(x => x.Role)
-            .Where(x => x.Id == id)
+            .Where(x => x.Id == id && !x.IsDeleted)
             .Select(x => new UserResponse
             {
                 Id = x.Id,
@@ -66,14 +72,19 @@ public class UserService : IUserService
                 LastName = x.LastName,
                 Email = x.Email,
                 Mobile = x.Mobile,
+                DepartmentId = x.DepartmentId,
 
                 Department = x.Department != null
                     ? x.Department.DepartmentName
                     : "",
 
+                DesignationId = x.DesignationId,
+
                 Designation = x.Designation != null
                     ? x.Designation.DesignationName
                     : "",
+
+                RoleId = x.RoleId,
 
                 Role = x.Role != null
                     ? x.Role.Name

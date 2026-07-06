@@ -1,17 +1,7 @@
-import AppLayout from "./components/layout/AppLayout";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
-
-    return (
-
-        <AppLayout>
-
-            <h1>Welcome to FPAMS</h1>
-
-        </AppLayout>
-
-    );
-
+    return <AppRoutes />;
 }
 
 export default App;

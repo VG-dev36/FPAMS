@@ -1,5 +1,6 @@
 ﻿using FPAMS.Application.DTOs.Designation;
 using FPAMS.Infrastructure.Services;
+using FPAMS.Shared.Constants;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,7 +8,7 @@ namespace FPAMS.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-[Authorize]
+[Authorize(Roles = Roles.SuperAdmin)]
 public class DesignationController : ControllerBase
 {
     private readonly DesignationService _service;

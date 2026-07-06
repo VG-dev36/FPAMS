@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using FPAMS.Application.Interfaces;
+using FPAMS.Domain.Entities;
 using FPAMS.Persistence.Repositories;
 
 namespace FPAMS.Persistence.DependencyInjection;
@@ -29,6 +30,13 @@ public static class PersistenceServiceRegistration
 
         services.AddScoped<IDesignationRepository, DesignationRepository>();
 
+        services.AddScoped<IGenericRepository<FacultyProfile>, FacultyProfileRepository>();
+
+        services.AddScoped<IGenericRepository<AppraisalForm>, AppraisalFormRepository>();
+
+        services.AddScoped<IGenericRepository<EvidenceAttachment>, EvidenceAttachmentRepository>();
+
+        services.AddScoped<IGenericRepository<Notification>, NotificationRepository>();
 
         return services;
     }
